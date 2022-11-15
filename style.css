@@ -366,3 +366,99 @@ html, body {
     background-color: transparent;
     border: 2px solid #fff;
 }
+
+
+
+
+/* Mobile Responsive Styles  */
+
+@media (max-width: 500px) {
+    
+    /* Nav Styles */
+
+    #main #nav {
+        padding: 0 10vw;
+    }
+    #main #nav #logo h1 {
+        font-size: 5vw;
+    }
+
+    #main #nav #logo h1 span {
+        font-size: 5vw;
+    }
+
+    #main #nav #search {
+        display: none;
+    }
+
+    #main #nav #nav-links {
+        display: none;
+    }
+
+    #nav #user {
+        width: 30%;
+    }
+
+    #nav #user i {
+        font-size: 4.5vw;
+        margin-left: 5vw;
+    }
+
+    /* Hero Section Styles */
+
+    #main #hero {
+        padding-top: 7vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #hero h6 {
+        font-size: 3vw;
+        margin-bottom: 3vh;
+    }
+
+    #hero h1 {
+        line-height: 1.5;
+        font-size: 8vw;
+    }
+
+    /* Section 2 Mobile Styles */
+
+    #main #section2 {
+        padding: 0 5vw;
+        height: 60vh;
+    }
+
+    /* Section 2 Left Styles */
+
+    #left #ltext h6 {
+        font-size: 1.5vw;
+        line-height: 1.5;
+    }
+
+    /* Section 2 Center Styles */
+
+    #center #img-capsule {
+        width: 80%;
+        height: 30vh;
+    }
+
+    #center #img-capsule2 {
+        width: 80%;
+        height: 30vh;
+        left: 25%;
+    }
+
+    /* Section 2 Right Styles */
+
+    #right h6 {
+        font-size: 1.6vw;
+        line-height: 1.5;
+    }
+
+    #right h6 span {
+        font-size: 1.6vw;
+        line-height: 1;
+    }
+
+}
